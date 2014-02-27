@@ -23,7 +23,7 @@
             <div class="col-sm-3"><a href="#">Portfolio</a></div>
             <div class="col-sm-3"><a href="#">Resume</a></div>
             <div class="col-sm-3"><a href="#">Blog</a></div>
-            <div class="col-sm-3"><a href="#">Say Hello</a></div>
+            <div class="col-sm-3"><a href="#">Say Hello Back</a></div>
           </div>
         </div>
       </div>
