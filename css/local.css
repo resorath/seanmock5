@@ -1,0 +1,60 @@
+html, body {
+	height: 100%;
+	color: #F1FFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.content, .container, .span9{
+    min-height:100%;
+}
+
+#front{
+	background-color: #35586C;
+}
+
+#selfportrait > img
+{
+	width: 280px;
+	height: 300px;
+	border-radius: 100px;
+}
+
+#greeting > h1
+{
+	font-size: 3.3em;
+}
+
+#selfblurb > p{
+	font-size: 1.5em;
+}
+
+.centre{
+	margin: 0 auto;
+	display: table;
+}
+
+#nav
+{
+	width: 100%;
+	background-color: #FFFFFF;
+	height: 30px;
+}
+
+#nav > .container > .row
+{
+	padding-top: 5px;
+}
+
+#nav > .container > .row > .col-sm-3 > a
+{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+@media (max-width: 767px){
+	#nav{
+		height: inherit;
+	}
+
+}
