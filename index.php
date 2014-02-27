@@ -73,6 +73,10 @@
         </div>
       </div>
 
+      <div id="scrollhinter">
+        <p><span class="glyphicon glyphicon-hand-down"></span> or just scroll down <span class="glyphicon glyphicon-hand-down"></span></p>
+      </div>
+
     </div>
 
     <div class="content" id="webux">

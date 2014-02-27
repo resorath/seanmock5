@@ -11,6 +11,7 @@ a:hover
 
 .content, .container, .span9{
     min-height:100%;
+    position: relative;
 }
 
 #front{
@@ -78,15 +79,39 @@ a:hover
 	border-top: 4px solid #E1FFFF;
 }
 
+#scrollhinter
+{
+	position: absolute;
+	bottom: 1px;
+	right:25%;
+    left:50%;
+    width: 180px;
+    margin-left: -90px;
+    clear: both;
+}
+
 
 @media (max-width: 767px){
 	#nav{
 		height: inherit;
+		display: none;
 	}
 
 	#interestareas
 	{
 		padding-top: 10px;
+		padding-bottom: 80px;
+	}
+
+	#interestareas > .container > .row > .col-sm-2
+	{
+		padding-top: 20px;
+	}
+
+	#interestareas > .container > .row > .col-sm-2 > div {
+		border-top: none;
+		border-left: 4px solid #E1FFFF;
+		padding-left: 20px;
 	}
 }
 
