@@ -4,6 +4,11 @@ html, body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+a:hover
+{
+	color: #539DC2;
+}
+
 .content, .container, .span9{
     min-height:100%;
 }
@@ -53,10 +58,35 @@ html, body {
 	font-weight: bold;
 }
 
+#interestareas
+{
+	padding-top: 100px;
+}
+
+#interestareas > .container > .row > .col-sm-2 > div > a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #E1FFFF;
+}
+
+#interestareas > .container > .row > .col-sm-2 > div > a:hover {
+	text-decoration: none;
+	color: #539DC2;
+}
+
+#interestareas > .container > .row > .col-sm-2 > div {
+	border-top: 4px solid #E1FFFF;
+}
+
 
 @media (max-width: 767px){
 	#nav{
 		height: inherit;
+	}
+
+	#interestareas
+	{
+		padding-top: 10px;
 	}
 }
 
@@ -68,4 +98,6 @@ html, body {
 		height: 260px;
 		border-radius: 80px;
 	}
+
+
 }

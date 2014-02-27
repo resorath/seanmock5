@@ -28,27 +28,51 @@
         </div>
       </div>
 
-      <div class="container">
+      <div id="header">
+        <div class="container">
 
-        <div class="centre" id="greeting">
-          <h1>Hello!</h1>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-4" id="selfportrait">
-            <img src="img/me.jpg" alt="Self Portrait">
+          <div class="centre" id="greeting">
+            <h1>Hello!</h1>
           </div>
 
-          <div class="col-sm-8" id="selfblurb">
-            <p>My name is Sean, welcome! </p>
-            <p>I am a software developer specializing in web. My interests are; creating usable web applications, managing software projects and teaching to these paradigms.</p>
-            <p>To drill into my portfolio, please select one of my interest areas below.</p>
+          <div class="row">
+            <div class="col-sm-4" id="selfportrait">
+              <img src="img/me.jpg" alt="Self Portrait">
+            </div>
+
+            <div class="col-sm-8" id="selfblurb">
+              <p>My name is Sean, welcome! </p>
+              <p>I am a software developer specializing in web. My interests are; creating usable web applications, managing software projects and teaching to these paradigms.</p>
+              <p>To drill into my portfolio, please select one of my interest areas below.</p>
+            </div>
+
           </div>
-
         </div>
-
 
       </div>
+
+      <div id="interestareas">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2">
+              <div><a href="#">User Experience Design</a></div>
+            </div>
+            <div class="col-sm-2">
+              <div><a href="#">Account and Identity Architecture</a></div>
+            </div>
+            <div class="col-sm-2">
+              <div><a href="#">Projects I've Managed</a></div>
+            </div>
+            <div class="col-sm-2">
+              <div><a href="#">Academic Web Applications</a></div>
+            </div>
+            <div class="col-sm-2">
+              <div><a href="#">Instruction and Teaching</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <div class="content" id="webux">
