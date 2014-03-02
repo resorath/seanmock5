@@ -4,6 +4,10 @@ html, body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+	font-family: 'Amaranth', sans-serif;
+}
+
 a:hover
 {
 	color: #539DC2;
@@ -16,6 +20,7 @@ a:hover
 
 #front{
 	background-color: #35586C;
+
 }
 
 #selfportrait > img
@@ -61,7 +66,7 @@ a:hover
 
 #interestareas
 {
-	padding-top: 100px;
+	padding-top: 80px;
 }
 
 #interestareas > .container > .row > .col-sm-2 > div > a {
@@ -79,6 +84,40 @@ a:hover
 	border-top: 4px solid #E1FFFF;
 }
 
+#uxd {
+	color: #000000;
+}
+
+#uxd > .container > h1{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.quote
+{
+	background-image: url('../img/quotes.png');
+	background-repeat: no-repeat;
+	padding: 10px 10px 10px 10px !important;
+}
+
+.quote > p
+{
+	margin: 0px;
+	font-family: 'Amaranth', sans-serif;
+	font-style: oblique;
+}
+
+#ia {
+	background-color: #B8B651;
+	background-image: url('../img/backgrounds_passive/struckaxiom.png');
+
+}
+
+#ia > .container > h1 {
+	color: #000000;
+
+}
+
 #scrollhinter
 {
 	position: absolute;
@@ -88,6 +127,41 @@ a:hover
     width: 180px;
     margin-left: -90px;
     clear: both;
+}
+
+.portfolioitem {
+	background-color: #DDDDDD;
+	padding: 20px 20px 20px 20px;
+	border-top-left-radius: 300px;
+	border-bottom-left-radius: 300px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: inset 0 0 20px #AAAAAA;
+	position: relative;
+
+}
+
+.portfolioitem > img{
+	width: 300px;
+	height: 300px;
+	border-radius: 300px;
+}
+
+
+.portfolioitem > .description > .leader
+{
+	font-family: 'Amaranth', sans-serif;
+	font-weight: bold;
+	font-size: 1.9em;
+}
+
+
+
+.portfolioitem > .description {
+	position: absolute;
+	left: 360px;
+	top: 20px;
+	padding-right: 20px;
 }
 
 
@@ -113,6 +187,50 @@ a:hover
 		border-left: 4px solid #E1FFFF;
 		padding-left: 20px;
 	}
+
+	#selfblurb > p
+	{
+		font-size: 1.2em;
+	}
+
+	#topblurb
+	{
+		padding-top: 30px;
+		font-size: 1.6em !important;
+	}
+
+	h1
+	{
+		font-size: 1.9em;
+	}
+
+	.portfolioitem {
+		padding: 10px 10px 10px 10px;
+
+	}
+
+	.portfolioitem > img{
+		width: 100px;
+		height: 100px;
+		border-radius: 80px;
+	}
+
+	.portfolioitem > .description {
+		position: absolute;
+		left: 120px;
+		top: 5px;
+	}
+
+	.portfolioitem > .description > p:not(.leader) {
+		display: none;
+	}
+
+	.portfolioitem > .description > .leader
+	{
+		font-size: 1.4em;
+	}
+
+
 }
 
 @media (min-width: 768px) and (max-width: 992px){
