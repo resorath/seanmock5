@@ -1,0 +1,5 @@
+RewriteEngine on 
+
+RewriteRule ^/?index.php$ placeholder.php [L]
+
+RewriteRule ^/?resume$ resume.php [L]
