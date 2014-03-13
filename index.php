@@ -21,10 +21,10 @@
       <div id="nav">
         <div class="container">
           <div class="row">
-            <div class="col-sm-3"><a href="#">Portfolio</a></div>
-            <div class="col-sm-3"><a href="#">Resume</a></div>
-            <div class="col-sm-3"><a href="#">Blog</a></div>
-            <div class="col-sm-3"><a href="#">Say Hello Back</a></div>
+            <div class="col-sm-3"><a href="#portfolio/uxd" class="link" id="link-uxd" data-scrolltarget="uxd">Portfolio</a></div>
+            <div class="col-sm-3"><a href="/resume">Resume</a></div>
+            <div class="col-sm-3"><a href="http://blog.seanfeil.com">Blog</a></div>
+            <div class="col-sm-3"><a href="/contact">Say Hello Back</a></div>
           </div>
         </div>
       </div>
