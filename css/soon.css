@@ -1,0 +1,24 @@
+html,body
+{
+    height: 100%;
+}
+body
+{
+   display: table; 
+   margin: 0 auto;
+   background-color: #35586C;
+   color: #FFFFFF;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.middlecontainer
+{  
+    height: 100%;
+    display: table-cell;   
+    vertical-align: middle;    
+}
+.cent
+{
+    height: 100px;
+    width: 200px;
+}
