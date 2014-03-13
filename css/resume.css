@@ -36,6 +36,11 @@ ul
 
 }
 
+#bottomspacer
+{
+	height: 300px;
+}
+
 .resume-leader
 {
 	text-transform: uppercase;
@@ -64,6 +69,11 @@ ul
 
 		margin-left: -20px;
 
+	}
+
+	#bottomspacer
+	{
+		height: 30px;
 	}
 
 }
