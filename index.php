@@ -126,17 +126,20 @@
 
             <img src="img/portfolio/wow/patchwerk_800_250.jpg" alt="Onyxia">
 
-            <p>In 2008 I applied those successes to another guild, "Uprising" and had similar success. I took more of a lead role for all guild operations, acting as
-              the "guild master". This position not only included leading raids, but managing the guild's virtual assets, finance and distribution of resources, interpersonal 
-              conflicts, leadership selection, and relationships with other guilds. I had a lot of fun in this role. </p>
+            <p>In 2008 I applied the lessons I learned to another guild, "Uprising" and had similar success. I took more of a lead role for all guild operations, acting as
+              the "guild master". This position not only included leading raids, but managing the guild's virtual assets, finance and distribution of resources, resolving interpersonal 
+              conflicts, leadership selection, recruitment, and relationships with other guilds. I had a lot of fun in this role. </p>
 
 
 
-            <p>I had some visions for what the guild might look like if we were to go back and build from scratch. I called it "Uprising 3.0", and even built a new website for it.</p>
+            <p>I had some visions for what the guild might look like if we were to go back and build from scratch. I called it "Uprising 3.0", and even built a new website for it.
+              The image on the right leads to the archived forum of those thoughts. </p>
 
             <div class="dualimages">
               <img src="img/portfolio/wow/uprising3_300_250.jpg" alt="Onyxia" class="halfpayloadimg">
-              <img src="img/portfolio/wow/uprising_forums_300_250.jpg" alt="Onyxia" class="halfpayloadimg">
+              <a href="http://uprising.tophatandmonocle.com/forums/phpBB3/viewforum.php?f=27">
+                <img src="img/portfolio/wow/uprising_forums_300_250.jpg" alt="Onyxia" class="halfpayloadimg">
+              </a>
             </div>
 
         </div>
