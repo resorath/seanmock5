@@ -43,8 +43,13 @@
 
             <div class="col-sm-8" id="selfblurb">
               <p id="topblurb">My name is Sean, welcome! </p>
-              <p>I am a software developer specializing in web. My interests are; creating usable web applications, managing software projects and teaching to these paradigms.</p>
-              <p>To drill into my portfolio, please select one of my interest areas below.</p>
+              <p>I like software architecture. To me that means:
+              <ul>
+                <li>How software is designed, by the partnership of developers and artists.</li>
+                <li>How software interacts with the person experiencing it.</li>
+                <li>How software systems work together, and how data flows through these systems.</li>
+              </ul>
+              <p>To learn more about me, use the links below. Alternatively, just start scrolling!</p>
             </div>
 
           </div>
@@ -56,16 +61,16 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-2">
-              <div><a href="#portfolio/uxd" class="link" id="link-uxd" data-scrolltarget="uxd">User Experience Design</a></div>
+              <div><a href="#portfolio/design" class="link" id="link-design" data-scrolltarget="design">Software Design</a></div>
             </div>
             <div class="col-sm-2">
-              <div><a href="#portfolio/ia" class="link" id="link-ia" data-scrolltarget="ia">Account and Identity Architecture</a></div>
+              <div><a href="#portfolio/leadership" class="link" id="link-leadership" data-scrolltarget="leadership">Leadership</a></div>
             </div>
             <div class="col-sm-2">
-              <div><a href="#portfolio/pm" class="link" id="link-pm" data-scrolltarget="pm">Projects I've Managed</a></div>
+              <div><a href="#portfolio/pm" class="link" id="link-pm" data-scrolltarget="pm">Project Management</a></div>
             </div>
             <div class="col-sm-2">
-              <div><a href="#portfolio/apps" class="link" id="link-apps" data-scrolltarget="apps">Academic Web Applications</a></div>
+              <div><a href="#portfolio/apps" class="link" id="link-apps" data-scrolltarget="apps">Portfolio Items</a></div>
             </div>
             <div class="col-sm-2">
               <div><a href="#portfolio/teaching" class="link" id="link-teaching" data-scrolltarget="teaching">Instruction and Teaching</a></div>
@@ -80,29 +85,74 @@
 
     </div>
 
-    <div class="content" id="uxd">
+    <div class="content" id="design">
       <div class="container">
-        <h1>User Experience Design</h1>
-
-        <div class="quote well">
-          <p>Design is not just what it looks like and feels like. Design is how it works.</p>
-        </div>
-
-        <div class="portfolioitem" id="activeliving">
-          <img src="img/portfolio/al_activeliving.png" alt="Active Living Public Registration Redesign">
-          <div class="description">
-            <p class="leader">Active Living Public Registration</p>
-            <p>Eiusmod you probably haven't heard of them proident tempor food truck. Flannel Marfa sapiente, lo-fi non viral cray kogi 3 wolf moon. Slow-carb nulla single-origin coffee gastropub drinking vinegar. Proident Pitchfork culpa mollit, asymmetrical authentic meggings duis accusamus twee next level synth photo booth. Aliqua esse flannel magna veniam scenester master cleanse pop-up, brunch farm-to-table kale chips mixtape paleo pour-over excepteur. Banh mi lomo Godard duis. Brunch lomo bicycle rights kale chips.</p>
-            <p>Excepteur butcher photo booth Etsy biodiesel, kale chips swag voluptate +1 kogi. Kale chips slow-carb ennui selfies, laboris single-origin coffee et nesciunt. Selfies proident minim officia. Irony seitan salvia mustache readymade nesciunt, Wes Anderson asymmetrical. Cred farm-to-table chambray, assumenda fingerstache proident lomo keytar cillum skateboard Brooklyn est hashtag mustache Tumblr. Typewriter normcore Bushwick, slow-carb cornhole PBR&B exercitation four loko next level 3 wolf moon retro single-origin coffee sustainable biodiesel. Accusamus scenester ethical, chillwave cray mlkshk beard anim officia banh mi distillery reprehenderit biodiesel kitsch.</p>
-          </div>
-        </div>
+        <h1>Software Design</h1>
 
       </div>
     </div>
 
-    <div class="content" id="ia">
+    <div class="content" id="leadership">
       <div class="container">
-        <h1>Account and Identity Architecture</h1>
+        <h1>Leadership</h1>
+
+        <div class="intro">
+          <p>I enjoy a task the most when I get to lead and inspire others who are working with me. This applies to both my 
+            leisure and professional activities.</p>
+        </div>
+
+        <h2>My First Day: A Story</h2>
+
+        <div class="payload">
+          <p>In 2004, I started playing my then guilty pleasure, Blizzard Entertainment's World of Warcraft. A well known computer game where
+            you play as a fantasy character slaying monsters and collecting treasure with thousands of other players. The game was brand new at this time. </p>
+
+            <img src="img/portfolio/wow/gatesopening_800_250.jpg" alt="Onyxia">
+
+            <p>It just so happens that the biggest monsters and greatest treasures exist in special environments called "Raids", challenging environments
+              which are instanced off for only your group. 
+              Within the first few months of joining a player organization called a guild who did competitive raiding I became a officer within the guild and
+              started leading these raids. </p>
+
+              <img src="img/portfolio/wow/ragnaros_800_250.jpg" alt="Onyxia">
+
+            <p>Raids started as 40 player adventures which require significant coordination of talents and precise execution of strategies. 
+              For me, the game was more about organizing other players and creating these strategies then it was about actually
+              slaying the monsters and getting the loot.</p>
+
+              <img src="img/portfolio/wow/onyxia_800_250.jpg" alt="Onyxia">
+
+            <p>After three years of this, my guild was the top 3 of over hundreds of similar guilds in the region. Our guild, "Rar" was a hit.</p>
+
+            <img src="img/portfolio/wow/patchwerk_800_250.jpg" alt="Onyxia">
+
+            <p>In 2008 I applied those successes to another guild, "Uprising" and had similar success. I took more of a lead role for all guild operations, acting as
+              the "guild master". This position not only included leading raids, but managing the guild's virtual assets, finance and distribution of resources, interpersonal 
+              conflicts, leadership selection, and relationships with other guilds. I had a lot of fun in this role. </p>
+
+
+
+            <p>I had some visions for what the guild might look like if we were to go back and build from scratch. I called it "Uprising 3.0", and even built a new website for it.</p>
+
+            <div class="dualimages">
+              <img src="img/portfolio/wow/uprising3_300_250.jpg" alt="Onyxia" class="halfpayloadimg">
+              <img src="img/portfolio/wow/uprising_forums_300_250.jpg" alt="Onyxia" class="halfpayloadimg">
+            </div>
+
+        </div>
+
+        <h2>In the Real World...</h2>
+
+        <div class="intro">
+          <p>Of course, video games are fun but face-to-face interactions are good experience too.</p>
+          <ul>
+            <li>I held the role of "Team Lead" for the Applications Development, Development Services group in the University of Calgary's 
+              Information Technologies department. This role was a mixed bag of project management and software development leadership. </li>
+            <li>Every year, I run a day-long session for teen girls with an objective to get the next generation interested in IT. 
+              My session allows the girls to make their own little video game using Alice. This is always a lot of fun for everyone involved, including myself. The program
+              is run by Explore IT. </li>
+
+
 
       </div>
     </div>

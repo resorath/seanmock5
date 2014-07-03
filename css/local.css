@@ -1,3 +1,4 @@
+/** Globals **/
 html, body {
 	height: 100%;
 	color: #F1FFFF;
@@ -17,6 +18,32 @@ a:hover
     min-height:100%;
     position: relative;
 }
+
+
+.centre{
+	margin: 0 auto;
+	display: table;
+}
+
+.intro > p
+{
+	font-size: 1.4em;
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+}
+
+.payload > p
+{
+	font-size: 1.2em;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+/** ENDS Globals **/
+
+/** Top section **/
 
 #front{
 	background-color: #35586C;
@@ -41,10 +68,12 @@ a:hover
 	padding-bottom: 1em;
 }
 
-.centre{
-	margin: 0 auto;
-	display: table;
+#selfblurb > ul
+{
+	padding-bottom: 20px;
+	font-size: 1.2em;
 }
+
 
 #nav
 {
@@ -82,40 +111,6 @@ a:hover
 
 #interestareas > .container > .row > .col-sm-2 > div {
 	border-top: 4px solid #E1FFFF;
-}
-
-#uxd {
-	color: #000000;
-}
-
-#uxd > .container > h1{
-	margin-top: 30px;
-	margin-bottom: 40px;
-}
-
-.quote
-{
-	background-image: url('../img/quotes.png');
-	background-repeat: no-repeat;
-	padding: 10px 10px 10px 10px !important;
-}
-
-.quote > p
-{
-	margin: 0px;
-	font-family: 'Amaranth', sans-serif;
-	font-style: oblique;
-}
-
-#ia {
-	background-color: #B8B651;
-	background-image: url('../img/backgrounds_passive/struckaxiom.png');
-
-}
-
-#ia > .container > h1 {
-	color: #000000;
-
 }
 
 #scrollhinter
@@ -164,6 +159,64 @@ a:hover
 	padding-right: 20px;
 }
 
+
+
+/** ENDS Top Section **/
+
+/** Section Containers **/
+
+/** -- Software Design **/
+
+#design {
+	background-color: rgb(246, 246, 246);
+	color: #000000;
+}
+
+#design > .container > h1{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+/** -- ENDS Software Design **/
+
+/** -- Leadership **/
+
+#leadership {
+	background-color: #FF7D01;
+	color: #000000;
+
+}
+
+#leadership > .container > h1 {
+	color: #000000;
+
+}
+
+.payload > img
+{
+	margin: 0 auto;
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.dualimages
+{
+	margin: 0 auto;
+	display: block;
+	width: 1005px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.halfpayloadimg
+{
+	display: inline-block;
+	margin: 0;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
 .vcontainer {
    min-height: 10em;
    display: table-cell;
@@ -172,6 +225,7 @@ a:hover
 }
 
 
+/** Typical mobile phone **/
 @media (max-width: 767px){
 	#nav{
 		height: inherit;
