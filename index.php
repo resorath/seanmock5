@@ -103,7 +103,7 @@
 
         <h2>My First Day: A Story</h2>
 
-        <div class="payload">
+        <div class="payload" id="pl-leadership">
           <p>In 2004, I started playing my then guilty pleasure, Blizzard Entertainment's World of Warcraft. A well known computer game where
             you play as a fantasy character slaying monsters and collecting treasure with thousands of other players. The game was brand new at this time. </p>
 
@@ -130,17 +130,20 @@
               the "guild master". This position not only included leading raids, but managing the guild's virtual assets, finance and distribution of resources, resolving interpersonal 
               conflicts, leadership selection, recruitment, and relationships with other guilds. I had a lot of fun in this role. </p>
 
-
+            <img src="img/portfolio/wow/yogg_800_250.jpg" alt="Onyxia">
 
             <p>I had some visions for what the guild might look like if we were to go back and build from scratch. I called it "Uprising 3.0", and even built a new website for it.
               The image on the right leads to the archived forum of those thoughts. </p>
 
-            <div class="dualimages">
-              <img src="img/portfolio/wow/uprising3_300_250.jpg" alt="Onyxia" class="halfpayloadimg">
-              <a href="http://uprising.tophatandmonocle.com/forums/phpBB3/viewforum.php?f=27">
-                <img src="img/portfolio/wow/uprising_forums_300_250.jpg" alt="Onyxia" class="halfpayloadimg">
-              </a>
-            </div>
+              
+            <a href="http://uprising.tophatandmonocle.com/forums/phpBB3/viewforum.php?f=27">
+              <img src="img/portfolio/wow/uprising3_800_250.jpg" alt="Onyxia">
+            </a>
+
+            <p>Playing the game gave me over 6 years of experience working with people from a diverse background to conquor difficult mental challenges using nothing but
+              a microphone and a video game. Working with a group that size, with a virtual reward system that is artifically limited creates its own unique tensions and challenges.
+            </p>
+
 
         </div>
 

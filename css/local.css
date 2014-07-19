@@ -192,12 +192,17 @@ a:hover
 
 }
 
-.payload > img
+.payload img
 {
 	margin: 0 auto;
 	display: block;
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+#pl-leadership img
+{
+	border: solid 15px #ff9d41;
 }
 
 .dualimages
